@@ -1,3 +1,5 @@
+const { count } = require("console");
+
 function assertEqual(actual, expected) {
   if (actual === expected) {
     console.log(`🤩Assertion Passed: ${actual}   ===  ${expected}`);
@@ -27,4 +29,4 @@ function countLetters(string) {
 
 console.log(countLetters(stringUse))
 
-
+module.exports = countLetters;

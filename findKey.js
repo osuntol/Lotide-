@@ -30,3 +30,5 @@ let results = findKey({
 )
 
 console.log(assertEqual((results), 'Ora'))
+
+module.exports = findKey;

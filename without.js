@@ -18,15 +18,6 @@ function assertArrayEqual(array1, array2) {
   }
 }
 
-// findElementInArray = (itemsToRemove, element) => {
-//   for (let i = 0; i < itemsToRemove.length; i++) {
-//     if (itemsToRemove[i] === element) {
-//       return true
-//     }
-//   }
-//   return false
-// }
-
 const words = ["hello", "world", "lighthouse"];
 without = (source, itemsToRemove) => {
   if (itemsToRemove.length === 0) {
@@ -61,3 +52,5 @@ console.log(assertArrayEqual(without(words, ['hello', 'world']
 ), ['lighthouse']
 ))
 console.log(assertArrayEqual(without([1, 2, 3], [1]), [2, 3]))
+
+module.exports = without;
