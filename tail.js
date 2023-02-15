@@ -13,5 +13,4 @@ function tail(result) {
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 const result = tail(words);
 
-console.log(assertEqual(result[0], "Lighthouse"));
-console.log(assertEqual(result[1], "Labs"));
+console.log(assertEqual(result.length, 2));

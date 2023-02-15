@@ -18,14 +18,14 @@ function assertArrayEqual(array1, array2) {
   }
 }
 
-findElementInArray = (itemsToRemove, element) => {
-  for (let i = 0; i < itemsToRemove.length; i++) {
-    if (itemsToRemove[i] === element) {
-      return true
-    }
-  }
-  return false
-}
+// findElementInArray = (itemsToRemove, element) => {
+//   for (let i = 0; i < itemsToRemove.length; i++) {
+//     if (itemsToRemove[i] === element) {
+//       return true
+//     }
+//   }
+//   return false
+// }
 
 const words = ["hello", "world", "lighthouse"];
 without = (source, itemsToRemove) => {

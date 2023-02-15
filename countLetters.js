@@ -25,6 +25,6 @@ function countLetters(string) {
   return stringCount
 }
 
-
+console.log(countLetters(stringUse))
 
 
